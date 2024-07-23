@@ -1,0 +1,155 @@
+/* Estilo geral do corpo */
+body {
+    font-family: 'Trebuchet MS', sans-serif; /* Fonte escolhida */
+    margin: 0;
+    padding: 0;
+    background-color: #E8EBE4; /* Azul claro */
+    color: #646463; /* Cinza escuro */
+}
+
+/* Estilo do menu de navegação */
+header {
+    background-color: #999AC6; /* Azul escuro */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Branco */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #B8BACF; /* Azul médio */
+    border-radius: 5px;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo do conteúdo principal */
+main.welcome-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: calc(100vh - 60px); /* Altura mínima considerando o header e footer */
+    padding: 20px;
+    text-align: top;
+}
+
+main.welcome-main h1 {
+    font-size: 4rem; /* Tamanho da fonte grande */
+    padding: 20px;
+    border: 4px solid #999AC6; /* Borda azul escuro */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #ffffff; /* Cor de fundo branca */
+    color: #646463; 
+    margin: 0;
+}
+
+/* Estilo da foto e do conteúdo */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left; /* Alinha o texto à esquerda para ficar ao lado da imagem */
+}
+
+.foto {
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    max-width: 300px; /* Ajuste o tamanho máximo da imagem conforme necessário */
+    height: auto;
+    border-radius: 5px;
+}
+
+p {
+    max-width: 600px; /* Ajusta a largura máxima do texto */
+    margin: 0; /* Remove margens padrões para ajustar o espaçamento */
+}
+
+/* Estilo da lista de tópicos */
+.info-list {
+    list-style-type: disc; /* Adiciona marcadores à lista */
+    padding-left: 20px; /* Adiciona um espaçamento à esquerda dos itens da lista */
+    margin: 0; /* Remove margens padrão */
+}
+
+.info-list li {
+    margin-bottom: 30px; /* Aumenta o espaçamento entre os itens da lista */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #999AC6; /* Azul escuro */
+    color: #242424; /* Cinza escuro */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo do formulário de contato */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #999AC6; /* Azul escuro */
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #B8BACF; /* Azul claro */
+    color: #646463; /* Cinza */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #999AC6; /* Cinza escuro */
+}
+
+/* Estilo do botão */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #999AC6; /* Azul escuro */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+.button:hover {
+    background-color: #B8BACF; /* Azul médio */
+}
